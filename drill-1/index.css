@@ -1,0 +1,26 @@
+header{
+    background-color: rgb(83, 81, 81);
+    height: 200px;
+    position: static;
+    z-index: 3;
+}
+
+main{
+    height: calc(100vh - 200px);
+    display:flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    
+}
+
+div{
+    background-color: rgb(205, 205, 205);
+    width: 175px;
+}
+
+footer{
+    background-color: rgb(49, 48, 48);
+   height: 100px;
+
+}
